@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+  /* border: solid 1px; */
+}
+.logo {
+  font-family: 'Pacifico', cursive;
+  color: lightseagreen;
+}
+ul {
+  /* border: solid 1px; */
+  display: flex;
+  list-style: none;
+  margin: 20px;
+}
+
+li a {
+  font-family: sans-serif;
+  color: black;
+  margin: 20px;
+  text-decoration: none;
+}
+.btn_1 {
+  width: 70px;
+  height: 30px;
+  background-color: yellow;
+  border: rgb(205, 177, 50) solid 1px;
+  border-radius: 10px;
+}
+section {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buble {
+  width: 500px;
+}
+
+.text {
+  font-family: 'Roboto';
+  width: 500px;
+  /* border: solid; */
+}
+.text p {
+  font-size: 20px;
+}
+
+.text h2 {
+  font-weight: 400;
+  font-size: 60px;
+}
+
+.btn_txt {
+  width: 80px;
+  height: 40px;
+  background-color: orange;
+  border: rgb(205, 177, 50) solid 1px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.judul {
+  margin-bottom: 5px;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+  background-color: darkslategrey;
+}
+.tekno {
+  color: white;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.row-1,
+.row-2,
+.row-3 {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  background-color: lightgreen;
+}
+.bahasa-pr {
+  font-weight: 400;
+}
+
+/* BIO */
+
+.bio {
+  /* border: solid 1px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  padding: 30px;
+  font-family: 'Roboto';
+}
+.bio h2 {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+}
+.bio img {
+  margin-left: 100px;
+  width: 200px;
+  border-radius: 100px;
+}
+footer {
+  color: white;
+  height: 200px;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer a {
+  color: wheat;
+}
