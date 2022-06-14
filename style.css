@@ -104,7 +104,6 @@ section {
 }
 
 /* BIO */
-
 .bio {
   /* border: solid 1px; */
   display: flex;
@@ -132,9 +131,32 @@ footer {
   height: 200px;
   background-color: black;
   display: flex;
+  align-items: center;
   justify-content: space-evenly;
 }
 
 footer a {
   color: wheat;
+}
+.media img {
+  margin: 5px;
+}
+
+/* Mediaquery */
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+  .btn_1 {
+    display: none;
+  }
+  section {
+    flex-direction: column;
+  }
+  .bio {
+    flex-direction: column;
+  }
+  .text {
+    width: 300px;
+  }
 }
