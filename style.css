@@ -76,10 +76,10 @@ section {
   padding: 20px;
   text-align: center;
   font-family: 'Roboto';
-  background-color: darkslategrey;
+  /* background-color: darkslategrey; */
 }
 .tekno {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .box {
   display: flex;
@@ -173,7 +173,9 @@ footer a {
     width: 300px;
   }
   .bio {
-    flex-direction: column;
+    background-color: lightsteelblue;
+    flex-direction: column-reverse;
+    border-radius: 20px;
   }
   .bio img {
     margin: 0;
