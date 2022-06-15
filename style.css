@@ -137,8 +137,12 @@ footer {
 footer a {
   color: wheat;
 }
-.media img {
+.box-1 a {
   margin: 5px;
+  text-decoration: none;
+}
+.media img {
+  margin: 3px;
 }
 
 /* Mediaquery */
@@ -179,5 +183,9 @@ footer a {
   }
   .bio img {
     margin: 0;
+  }
+
+  .media img {
+    width: 30px;
   }
 }
